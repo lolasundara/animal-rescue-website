@@ -6,8 +6,16 @@ body {
   margin: 0;
 }
 
-a:hover {
-  color: ;
+.skip-links {
+  display: none;
+}
+
+li {
+  display: inline-block;
+}
+
+li a:hover {
+  color: #5D839D;
 }
 
 .nav {
@@ -26,13 +34,53 @@ a:hover {
   color: #fff;
 }
 
-.news {
-  position: relative;
+.banner-content {
+  position: absolute;
+  color: #fff;
+  top: 4.5em;
+  right: 0;
+  width: 100%;
+  background-size: cover;
 }
 
-.news-content {
-  background-color: #5D839D;
-  color: #fff;
-  position: absolute;
+.relative {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.img-flex {
   width: 100%;
+  display: block;
+}
+
+.learn {
+  background-color: #000;
+  border: none;
+}
+
+.green {
+  background-color: #959B67;
+  border: none;
+}
+
+.blue {
+  background-color: #5D839D;
+  border: none;
+}
+
+.card-g {
+  background-color: #C7CBA8;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.card-b {
+  background-color: #BDCDD8;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.end {
+  background-color: #DDDDE0;
 }
