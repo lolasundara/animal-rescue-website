@@ -1,109 +1,108 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Go Eco</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/modules.css" rel="stylesheet">
-    <link href="css/type.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Go Eco</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
 
-    <ul class="skip-links">
-      <li><a href="#nav">jump to navigation</a></li>
-      <li><a href="#main">jump to the main content</a></li>
-    </ul>
+  <ul class="skip-links">
+    <li><a href="#nav">jump to navigation</a></li>
+    <li><a href="#main">jump to the main content</a></li>
+  </ul>
 
-    <header role="banner" class="masthead">
-      <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
-        <h1 class="push-0">Go Eco</h1>
+  <header role="banner" class="masthead">
+    <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
+      <h1 class="push-0">Go Eco</h1>
+    </div>
+
+    <input type="checkbox" class="nav-check" id="nav-check">
+    <label class="nav-label text-right" for="nav-check">
+      <i class="icon i-32">
+        <img class="nav-open" src="images/nav-icon.svg" alt="open navigation">
+        <img class="nav-close" src="images/nav-icon-close.svg" alt="close navigation">
+      </i>
+    </label>
+
+    <nav id="nav" role="navigation" class="nav" tabindex="0">
+      <div class="wrapper">
+        <ol class="gutter-micro list-group-inline push-0">
+          <li><a class="gutter-1-2 pad-t-1-2 pad-b-1-2 xs-1-4 s-1-4" href="rescues.html">Programs</a></li>
+          <li><a class="gutter-1-2 pad-t-1-2 pad-b-1-2 xs-1-4 s-1-4" href="adopt.html">Adoptions</a></li>
+          <li><a class="gutter-1-2 pad-t-1-2 pad-b-1-2 xs-1-4 s-1-4" href="news.html">News</a></li>
+        </ol>
       </div>
+    </nav>
+  </header>
 
-      <nav id="nav" role="navigation" class="nav" tabindex="0">
-        <input type="checkbox" class="nav-check" id="nav-check">
-        <label class="nav-label" for="nav-check">
-          <img src="images/nav-icon.svg" alt="">
-
-        <div class="wrapper">
-          <ol class="gutter-micro list-group-inline push-0">
-            <li><a class="gutter-1-2 pad-t-1-2 pad-b-1-2 xs-1-4 s-1-4" href="#programs">Programs</a></li>
-            <li><a class="gutter-1-2 pad-t-1-2 pad-b-1-2 xs-1-4 s-1-4" href="#adopt">Adoptions</a></li>
-            <li><a class="gutter-1-2 pad-t-1-2 pad-b-1-2 xs-1-4 s-1-4" href="#about">About</a></li>
-            <li><a class="gutter-1-2 pad-t-1-2 pad-b-1-2 xs-1-4 s-1-4" href="#news">News</a></li>
-          </ol>
+  <main role="main" id="main" tabindex="0">
+    <section id="news">
+      <div class="banner relative">
+        <div class="embed embed-16by9">
+          <img class="embed-item img-flex" src="images/rhinos.jpeg" alt="">
         </div>
-      </nav>
-    </header>
-
-    <main role="main" id="main" tabindex="0">
-      <section id="news">
-        <div class="banner relative">
-          <div class="embed embed-16by9">
-            <img class="embed-item img-flex" src="images/rhinos.jpeg" alt="">
+        <div class="island header-float center-text absolute banner-content max-length">
+          <h2 class="terra push-1-4">What's New?</h2>
+          <p class="kilo">Volunteer abroad vacations & opportunities in 50 countries - wildlife & animal care, teach English abroad & special programs for teens, students & families.</p>
+          <div class="text-center">
+            <a href="news.html" class="btn learn">Learn More</a>
           </div>
-          <div class="island header-float center-text absolute banner-content max-length">
-            <h2 class="terra push-1-4">What's New?</h2>
-            <p class="kilo">Volunteer abroad vacations & opportunities in 50 countries - wildlife & animal care, teach English abroad & special programs for teens, students & families.</p>
-            <div class="text-center">
-              <a href="news.html" class="btn learn">Learn More</a>
-            </div>
-          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="unit">
-        <div class="unit xs-1 s-1 m-1-2 l-1-4 card-g island-1-2 push-1-2">
-          <h2 class="giga push-1-2">Ho Chi Community Involvement</h2>
-          <h3 class="kilo push-1-2">Vietnam</h3>
-          <p class="micro">In this project you can enjoy all that this city has to offer and also volunteer in one of these important initiatives.</p>
-          <a href="rescues.html" class="btn green sign kilo">See More</a>
-        </div>
-
-        <div class="unit xs-1 s-1 m-1-2 l-1-4 card-b island-1-2 push-1-2">
-          <h2 class="giga push-1-2">Penguin and Marine bird Sanctuary</h2>
-          <h3 class="kilo push-1-2">South Africa</h3>
-          <p class="micro">Volunteer to rehabilitate African penguins and other marine birds at this santuary!</p>
-          <a href="rescues.html" class="btn blue sign kilo">See More</a>
-        </div>
-
-        <div class="unit xs-1 s-1 m-1-2 l-1-4 card-g island-1-2 push-1-2">
-          <h2 class="giga push-1-2">Wild Life Orphanage</h2>
-          <h3 class="kilo push-1-2">Sri Lanka</h3>
-          <p class="micro">Volunteer at one of the largest and most successful wildlife rehabiltation and release centers.</p>
-          <a href="rescues.html" class="btn green sign kilo">See More</a>
-        </div>
-
-        <div class="unit xs-1 s-1 m-1-2 l-1-4 card-b island-1-2 push-1-2">
-          <h2 class="giga push-1-2">Dehli Medical Internship</h2>
-          <h3 class="kilo push-1-2">India</h3>
-          <p class="micro">Engage in experiential skills development through this medical internship.</p>
-          <a href="rescues.html" class="btn blue sign kilo">See More</a>
-        </div>
-      </section>
-    </main>
-
-    <footer role="contentinfo" class="grid end">
-      <div class="unit island-1-2">
-        <p class="micro">Email: goeco@goeco.org</p>
+    <section class="unit">
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 card-g island-1-2 text-center">
+        <h2 class="giga push-1-2">Ho Chi Community Involvement</h2>
+        <p class="micro">In this project you can enjoy all that this city has to offer and also volunteer in one of these important initiatives.</p>
+        <a href="rescues.html" class="btn green sign kilo">See More</a>
       </div>
 
-      <div class="unit island-1-2">
-        <p class="micro">Phone: 1+646-240-4545</p>
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 card-b island-1-2 text-center">
+        <h2 class="giga push-1-2">Penguin and Marine bird Sanctuary</h2>
+        <p class="micro">Volunteer to rehabilitate African penguins and other marine birds at this santuary!</p>
+        <a href="rescues.html" class="btn blue sign kilo">See More</a>
       </div>
 
-      <form class="unit" method="POST" action="https://formspree.io/sund0037@algonquinlive.com">
-        <div class="unit push island-1-2">
-          <p class="milli push-1-2">Sign Up for our Newsletter</p>
-          <label class="micro" for="email">Email</label>
-          <input id="email" type="email" name="email" required>
-          <label class="micro" for="name">Name</label>
-          <input class="push-1-2" id="name" type="name" name="name" required>
-          <a href="news.html" class="btn learn sign micro">Sign Up</a>
-        </div>
-      </form>
-    </footer>
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 card-g island-1-2 text-center">
+        <h2 class="giga push-1-2">Wild Life Orphanage</h2>
+        <p class="micro">Volunteer at one of the largest and most successful wildlife rehabiltation and release centers.</p>
+        <a href="rescues.html" class="btn green sign kilo">See More</a>
+      </div>
 
-  </body>
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 card-b island-1-2 text-center">
+        <h2 class="giga push-1-2">Dehli Medical Internship</h2>
+        <p class="micro">Engage in experiential skills development through this medical internship.</p>
+        <a href="rescues.html" class="btn blue sign kilo">See More</a>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo" class="grid end">
+    <div class="unit island-1-2">
+      <p class="micro">Email: goeco@goeco.org</p>
+    </div>
+
+    <div class="unit island-1-2">
+      <p class="micro">Phone: 1+646-240-4545</p>
+    </div>
+
+    <form class="unit" method="POST" action="https://formspree.io/sund0037@algonquinlive.com">
+      <div class="unit push island-1-2">
+        <p class="milli push-1-2">Sign Up for our Newsletter</p>
+        <label class="micro" for="email">Email</label>
+        <input id="email" type="email" name="email" required>
+        <label class="micro" for="name">Name</label>
+        <input class="push-1-2" id="name" name="name">
+        <a href="news.html" class="btn learn sign micro">Sign Up</a>
+      </div>
+    </form>
+  </footer>
+
+</body>
 </html>
