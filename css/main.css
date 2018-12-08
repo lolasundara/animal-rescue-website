@@ -15,12 +15,12 @@ li {
 }
 
 li a:hover {
-  color: #5D839D;
+  color: #5d839d;
 }
 
 .nav {
   position: relative;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   z-index: 2;
   width: 15em;
   top: 100%;
@@ -28,7 +28,7 @@ li a:hover {
 }
 
 .nav a {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   display: block;
   padding: 0.5em;
@@ -75,7 +75,7 @@ li a:hover {
 }
 
 .masthead {
-  background-color: #000000;
+  background-color: #000;
   color: #fff;
 }
 
@@ -105,27 +105,27 @@ li a:hover {
 }
 
 .green {
-  background-color: #959B67;
+  background-color: #959b67;
   border: none;
 }
 
 .blue {
-  background-color: #5D839D;
+  background-color: #5d839d;
   border: none;
 }
 
 .card-g {
-  background-color: #C7CBA8;
+  background-color: #c7cba8;
   border-radius: 2px;
   display: inline-block;
 }
 
 .card-b {
-  background-color: #BDCDD8;
+  background-color: #bdcdd8;
   border-radius: 2px;
   display: inline-block;
 }
 
 .end {
-  background-color: #DDDDE0;
+  background-color: #dddde0;
 }
