@@ -22,11 +22,56 @@ li a:hover {
   position: relative;
   background-color: #F7F7F7;
   z-index: 2;
+  width: 15em;
+  top: 100%;
+  right: 0;
 }
 
 .nav a {
   color: #000000;
   text-decoration: none;
+  display: block;
+  padding: 0.5em;
+}
+
+.nav-checked {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-checked:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+  top: 4em;
+  right: .25em;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #ccc;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
 }
 
 .masthead {
