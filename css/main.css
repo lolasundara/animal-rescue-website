@@ -78,10 +78,25 @@ li a:hover {
 }
 
 .end {
-  background-color: #dddde0;
+  background-color: #000;
+}
+
+.white-type {
+  color: #fff;
 }
 
 .home {
   text-decoration: none;
   color: #fff;
+}
+
+.pic {
+  width: 75%;
+  height: 75%;
+  margin-left: 2em;
+}
+
+.sign-up {
+  background-color: #747476;
+  border: none;
 }
