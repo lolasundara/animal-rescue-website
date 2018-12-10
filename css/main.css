@@ -2,10 +2,6 @@ html {
   font-family: Merriweather, serif;
 }
 
-body {
-  margin: 0;
-}
-
 .skip-links {
   display: none;
 }
@@ -15,14 +11,14 @@ li {
 }
 
 li a:hover {
-  color: #5d839d;
+  color: #fff;
+  background-color: #5d839d;
 }
 
 .nav {
   position: relative;
   background-color: #f7f7f7;
   z-index: 2;
-  width: 15em;
   top: 100%;
   right: 0;
 }
@@ -31,47 +27,7 @@ li a:hover {
   color: #000;
   text-decoration: none;
   display: block;
-  padding: 0.5em;
-}
-
-.nav-checked {
-  position: absolute;
-  top: -3em;
-}
-
-.nav-checked:checked ~ .nav {
-  display: block;
-}
-
-.nav-label {
-  cursor: pointer;
-  display: inline-block;
-  width: 40px;
-  position: absolute;
-  top: 4em;
-  right: .25em;
-}
-
-.nav-open,
-.nav-close {
-  display: block;
-  width: 100%;
-}
-
-.nav-check:checked ~ .nav-label {
-  background-color: #ccc;
-}
-
-.nav-close {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: block;
+  padding: .5em;
 }
 
 .masthead {
@@ -92,11 +48,6 @@ li a:hover {
   position: relative;
   display: block;
   overflow: hidden;
-}
-
-.img-flex {
-  width: 100%;
-  display: block;
 }
 
 .learn {
@@ -128,4 +79,9 @@ li a:hover {
 
 .end {
   background-color: #dddde0;
+}
+
+.home {
+  text-decoration: none;
+  color: #fff;
 }
