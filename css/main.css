@@ -172,14 +172,45 @@ input, select, textarea {
 
 }
 
-@media only screen (min-width: 38em) {
+@media only screen and (min-width: 38em) {
 
-
+  nav li {
+    font-size: 1.25em;
+  }
 }
 
-@media only screen (min-width: 60em) {
+@media only screen and (min-width: 60em) {
 
+  .banner-content {
+    top: 8.5em;
+    left: 1em;
+  }
 
+  .banner-h {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+  }
+
+  .banner-p {
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+
+  .mozambique {
+    margin-bottom: 2.15em;
+  }
+
+  nav li {
+    font-size: 1.5em;
+  }
+
+  .street{
+    margin-right: 1.25em;
+  }
+
+  .aus, .zim {
+    margin-bottom: 2.15em;
+  }
 }
 
 @@keyframes move {
