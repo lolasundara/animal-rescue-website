@@ -172,13 +172,6 @@ input, select, textarea {
 
 }
 
-@media only screen and (min-width: 38em) {
-
-  nav li {
-    font-size: 1.25em;
-  }
-}
-
 @media only screen and (min-width: 60em) {
 
   .banner-content {
@@ -200,10 +193,6 @@ input, select, textarea {
     margin-bottom: 2.15em;
   }
 
-  nav li {
-    font-size: 1.5em;
-  }
-
   .street{
     margin-right: 1.25em;
   }
@@ -213,7 +202,7 @@ input, select, textarea {
   }
 }
 
-@@keyframes move {
+@keyframes move {
 
   0% {
     transform: translateX(0);
@@ -222,7 +211,7 @@ input, select, textarea {
 
   100% {
     transform: translateX(0);
-    transform: translateY(-50px);
+    transform: translateY(-5px);
   }
 
 }
