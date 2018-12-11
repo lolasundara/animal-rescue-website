@@ -191,13 +191,14 @@ input, select, textarea {
     margin-bottom: 2.15em;
   }
 
-  .street{
+  .street {
     margin-right: 1.25em;
   }
 
   .aus, .zim {
     margin-bottom: 2.15em;
   }
+
 }
 
 @keyframes move {
