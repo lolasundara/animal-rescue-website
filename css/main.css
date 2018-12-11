@@ -14,9 +14,12 @@ li {
   display: inline-block;
 }
 
-li:hover {
+li:hover a {
   color: #fff;
-  background-color: #000;
+}
+
+li:hover {
+  background-color: #909090;
   border-radius: 3px;
 }
 
@@ -130,6 +133,14 @@ input, select, textarea {
   margin-left: 1em;
 }
 
+.map {
+  background-image: url("../images/map.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: left top, left bottom, left top;
+  padding: 3em;
+}
+
 .sign-up {
   background-color: #747476;
   border: none;
@@ -140,10 +151,15 @@ input, select, textarea {
   width: 100%;
 }
 
+.move:hover {
+  animation: move 1s linear;
+  filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, .5));
+}
+
 @media only screen and (min-width: 25em) {
 
   .banner-content {
-    top: 3em;
+    top: 4em;
   }
 
   .street {
@@ -163,5 +179,19 @@ input, select, textarea {
 
 @media only screen (min-width: 60em) {
 
+
+}
+
+@@keyframes move {
+
+  0% {
+    transform: translateX(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateX(0);
+    transform: translateY(-50px);
+  }
 
 }
