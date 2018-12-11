@@ -1,5 +1,5 @@
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .skip-links {
@@ -48,7 +48,7 @@ a {
 .banner-content {
   position: absolute;
   color: #fff;
-  top: 4.5em;
+  top: -.25em;
   right: 0;
   width: 100%;
   background-size: cover;
@@ -125,9 +125,9 @@ input, select, textarea {
 }
 
 .pic {
-  width: 75%;
-  height: 75%;
-  margin-left: 2em;
+  width: 90%;
+  height: 90%;
+  margin-left: 1em;
 }
 
 .sign-up {
