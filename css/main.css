@@ -10,9 +10,15 @@ li {
   display: inline-block;
 }
 
-li a:hover {
+li:hover {
   color: #fff;
-  background-color: #5d839d;
+  background-color: #747476;
+  border-radius: 2px;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .nav {
@@ -99,4 +105,9 @@ li a:hover {
 .sign-up {
   background-color: #747476;
   border: none;
+}
+
+.destination {
+  background-color: #f7f7f7;
+  width: 100%;
 }
