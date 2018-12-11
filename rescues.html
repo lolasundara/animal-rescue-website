@@ -118,13 +118,24 @@
     <p class="micro text-center">Fill out the form below to iterate your interest in a project</p>
 
     <div>
-      <label for="email">Your Email</label>
+      <label for="email">Email:</label>
       <input class="push" id="email" type="email" placeholder="me@me.com" name="email" required>
     </div>
 
     <div>
-      <label for="name">First Name</label>
-      <input class="push" id="name" name="name" required>
+      <label for="name">First Name:</label>
+      <input class="push" id="name" name="firstname" required>
+      <p class="push-0">Last Name:</p>
+      <input class="push" type="text" name="lastname">
+    </div>
+
+    <div>
+      <label for="gender">Gender</label>
+      <select class="push" id="gender" name="gender">
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+    </select>
     </div>
 
     <div>
@@ -138,7 +149,7 @@
     </div>
 
     <div>
-      <label for="details">Additional concerns or questions</label>
+      <label for="details">Questions or Concerns</label>
       <textarea class="push" id="details" name="message" required></textarea>
     </div>
 
