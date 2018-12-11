@@ -74,12 +74,12 @@ a {
 }
 
 .green {
-  background-color: #959b67;
+  background-color: #6c714a;
   border: none;
 }
 
 .blue {
-  background-color: #5d839d;
+  background-color: #49687e;
   border: none;
 }
 
@@ -138,4 +138,19 @@ input, select, textarea {
 .destination {
   background-color: #f7f7f7;
   width: 100%;
+}
+
+@media only screen (min-width: 25em) {
+
+
+}
+
+@media only screen (min-width: 38em) {
+
+
+}
+
+@media only screen (min-width: 60em) {
+
+
 }
