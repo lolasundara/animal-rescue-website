@@ -14,14 +14,9 @@ li {
   display: inline-block;
 }
 
-li:hover {
-  background-color: #747476;
-  border-radius: 2px;
-}
-
-a:hover {
+li a:hover {
   color: #fff;
-  background-color: #747476;
+  background-color: #000;
   border-radius: 3px;
 }
 
