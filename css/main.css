@@ -16,6 +16,8 @@ li {
 
 li:hover a {
   color: #fff;
+  background-color: #909090;
+  border-radius: 3px;
 }
 
 li:hover {
@@ -115,11 +117,11 @@ input, select, textarea {
 }
 
 .green-type {
-  color: #959b67;
+  color: #797e52;
 }
 
 .blue-type {
-  color: #5d839d;
+  color: #567991;
 }
 
 .home {
