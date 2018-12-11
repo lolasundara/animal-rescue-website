@@ -74,6 +74,11 @@ a {
 }
 
 .learn {
+  background-color: #49687e;
+  border: none;
+}
+
+.learn:hover {
   background-color: #000;
   border: none;
 }

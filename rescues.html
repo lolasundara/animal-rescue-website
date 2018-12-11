@@ -77,7 +77,7 @@
             <a href="news.html" class="btn blue">Go to Project</a>
           </div>
         </div>
-        <hr>
+        <hr class="push-0">
       </div>
 
       <div class="unit island-1-2 xs-1 s-1 m-1-2 l-1-4">
@@ -116,86 +116,86 @@
         <hr>
       </div>
     </section>
+
+    <form class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-2" method="get" action="/action_page.php">
+      <h2 class="green-type push-0 text-center">Interested? Enroll Now</h2>
+      <p class="milli text-center">Fill out the form below to iterate your interest in a project</p>
+
+      <div class="unit push-1-2">
+        <label for="tel">Phone number</label>
+        <input id="tel">
+      </div>
+
+      <div class="unit street">
+        <label for="name">Street address</label>
+        <input class="push-1-2" id="name">
+      </div>
+
+      <div class="unit push-1-2">
+        <label for="range">Postal code</label>
+        <input id="range">
+      </div>
+
+      <div>
+        <label for="text">Full Name:</label>
+        <input class="push-1-2" id="text" name="firstname" required>
+      </div>
+
+      <div class="unit push-0">
+        <label for="date">Date of birth</label>
+        <input id="date" name="date" required>
+      </div>
+      <p class="nano push-1-2">Ex:(MM/DD/YY)</p>
+
+      <div>
+        <label for="gender">Gender</label>
+        <select class="push-1-2" id="gender" name="gender">
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+          <option>Would rather not disclose this information</option>
+        </select>
+      </div>
+
+      <div class="unit">
+        <label for="subject">T-shirt size</label>
+        <select class="push-1-2" id="subject" name="_subject">
+          <option>Select a size</option>
+          <option>Fitted: XS</option>
+          <option>Fitted: S</option>
+          <option>Fitted: M</option>
+          <option>Fitted: L</option>
+          <option>Fitted: XL</option>
+          <option>Straight-cut: XS</option>
+          <option>Straight-cut: S</option>
+          <option>Straight-cut: M</option>
+          <option>Straight-cut: L</option>
+          <option>Straight-cut: XL</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="time">Country</label>
+        <select class="push-1-2" id="time" name="_subject">
+          <option>Canada</option>
+          <option>United States</option>
+          <option>Europe</option>
+          <option>South America</option>
+          <option>Asia</option>
+          <option>Africa</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="details">Questions or Concerns</label>
+        <textarea class="push" id="details" name="message" required></textarea>
+      </div>
+
+      <div>
+        <button class="btn green push" type="submit">Submit</button>
+      </div>
+    </form>
   </main>
-
-  <form class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-2" method="get" action="/action_page.php">
-    <h2 class="green-type push-0 text-center">Interested? Enroll Now</h2>
-    <p class="milli text-center">Fill out the form below to iterate your interest in a project</p>
-
-    <div class="unit push-1-2">
-      <label for="tel">Phone number</label>
-      <input id="tel">
-    </div>
-
-    <div class="unit street">
-      <label for="name">Street address</label>
-      <input class="push-1-2" id="name">
-    </div>
-
-    <div class="unit push-1-2">
-      <label for="range">Postal code</label>
-      <input id="range">
-    </div>
-
-    <div>
-      <label for="text">Full Name:</label>
-      <input class="push-1-2" id="text" name="firstname" required>
-    </div>
-
-    <div class="unit push-0">
-      <label for="date">Date of birth</label>
-      <input id="date" name="date" required>
-    </div>
-    <p class="nano push-1-2">Ex:(MM/DD/YY)</p>
-
-    <div>
-      <label for="gender">Gender</label>
-      <select class="push-1-2" id="gender" name="gender">
-        <option>Male</option>
-        <option>Female</option>
-        <option>Other</option>
-        <option>Would rather not disclose this information</option>
-      </select>
-    </div>
-
-    <div class="unit">
-      <label for="subject">T-shirt size</label>
-      <select class="push-1-2" id="subject" name="_subject">
-        <option>Select a size</option>
-        <option>Fitted: XS</option>
-        <option>Fitted: S</option>
-        <option>Fitted: M</option>
-        <option>Fitted: L</option>
-        <option>Fitted: XL</option>
-        <option>Straight-cut: XS</option>
-        <option>Straight-cut: S</option>
-        <option>Straight-cut: M</option>
-        <option>Straight-cut: L</option>
-        <option>Straight-cut: XL</option>
-      </select>
-    </div>
-
-    <div>
-      <label for="time">Country</label>
-      <select class="push-1-2" id="time" name="_subject">
-        <option>Canada</option>
-        <option>United States</option>
-        <option>Europe</option>
-        <option>South America</option>
-        <option>Asia</option>
-        <option>Africa</option>
-      </select>
-    </div>
-
-    <div>
-      <label for="details">Questions or Concerns</label>
-      <textarea class="push" id="details" name="message" required></textarea>
-    </div>
-
-    <div>
-      <button class="btn green push" type="submit">Submit</button>
-    </div>
-  </form>
 
   <footer role="contentinfo" class="grid end island-1-2">
     <div class="unit xs-1 s-1-2">
