@@ -14,7 +14,7 @@ li {
   display: inline-block;
 }
 
-li a:hover {
+li:hover {
   color: #fff;
   background-color: #000;
   border-radius: 3px;
