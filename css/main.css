@@ -140,8 +140,19 @@ input, select, textarea {
   width: 100%;
 }
 
-@media only screen (min-width: 25em) {
+@media only screen and (min-width: 25em) {
 
+  .banner-content {
+    top: 3em;
+  }
+
+  .street {
+    margin-left: 1.25em;
+  }
+
+  .rescue-content {
+    top: 12em;
+  }
 
 }
 
