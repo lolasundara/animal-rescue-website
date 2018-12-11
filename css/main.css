@@ -1,9 +1,13 @@
 html {
-  font-family: Merriweather, serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .skip-links {
   display: none;
+}
+
+h1 {
+  font-family: Merriweather, serif;
 }
 
 li {
@@ -50,6 +54,14 @@ a {
   background-size: cover;
 }
 
+.rescue-content {
+  position: absolute;
+  color: #fff;
+  top: 5em;
+  width: 100%;
+  background-size: cover;
+}
+
 .relative {
   position: relative;
   display: block;
@@ -83,12 +95,28 @@ a {
   display: inline-block;
 }
 
+hr {
+  color: #909090;
+}
+
 .end {
   background-color: #000;
 }
 
+input, select, textarea {
+  border-radius: 3px;
+}
+
 .white-type {
   color: #fff;
+}
+
+.green-type {
+  color: #959B67;
+}
+
+.blue-type {
+  color: #5d839d;
 }
 
 .home {
