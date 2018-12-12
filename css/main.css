@@ -198,10 +198,6 @@ input, select, textarea {
     margin-bottom: 1em;
   }
 
-  .mozambique {
-    margin-bottom: 3em;
-  }
-
   .street {
     margin-right: 1.25em;
   }
@@ -210,7 +206,19 @@ input, select, textarea {
     margin-right: 1.25em;
   }
 
-  .aus, .zim {
+  .aus {
+    margin-bottom: 2.15em;
+  }
+
+  .zim {
+    margin-bottom: .75em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .zim {
     margin-bottom: 2.15em;
   }
 
