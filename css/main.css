@@ -177,6 +177,10 @@ input, select, textarea {
     top: 12em;
   }
 
+  .mozambique {
+    margin-bottom: 2.35em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -195,7 +199,7 @@ input, select, textarea {
   }
 
   .mozambique {
-    margin-bottom: 2.15em;
+    margin-bottom: 3em;
   }
 
   .street {
