@@ -202,6 +202,10 @@ input, select, textarea {
     margin-right: 1.25em;
   }
 
+  .postal {
+    margin-right: 1.25em;
+  }
+
   .aus, .zim {
     margin-bottom: 2.15em;
   }
